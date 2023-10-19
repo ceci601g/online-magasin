@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+body{
+    width: 100%;
+    background-color: DBC096;
+    background-image: url(img/baggrund.webp);
+    background-size: cover; /* Juster billedet til at dække hele baggrundsdelen */
+    background-repeat: no-repeat; /* Forhindre gentagelse af billedet */
+  }
+
+  .logo{
+    width: 120px;
+}
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+nav {   
+    text-align: center;
+    padding-bottom: 10px;
+    background-image: url(img/navbar.webp);
+    background-size: cover; /* Juster billedet til at dække hele baggrundsdelen */
+    background-repeat: no-repeat; /* Forhindre gentagelse af billedet */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: rgb(122, 177, 101);
+}
+
+.hvem-er-jeg{
+    color: rgb(255, 255, 255);
+    width: 28%;
+    margin-left: 40px;
+    background-color: #000000;
+    filter: opacity(50%);
+    padding: 10 20px;
+}
+
+.hvad-er-kaffe{
+    color: rgb(255, 255, 255);
+    width: 28%;
+    margin-right: 40px;
+    background-color: #000000;
+    filter: opacity(50%);
+    float: right;
+    padding: 10 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+}
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    filter: opacity(75%);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 400px;
+    padding: 20px;
+}
+
+.some{
+    width: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Stil for dropdown-menuen indhold */
+.dropdown .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Ændrer farven på linket, når musen er over det */
+.dropdown:hover .sub-menu {
+    display: block;
+}
+
+/* Stil for dropdown-menuen indhold - links */
+.dropdown .sub-menu li {
+    list-style: none;
+}
+
+/* Stil for dropdown-menuen indhold - links */
+.dropdown .sub-menu a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+
+/* Ændrer farven på linket, når musen er over det */
+.dropdown .sub-menu a:hover {
+    color: rgb(122, 177, 101);
+
+}
